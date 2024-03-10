@@ -1,0 +1,46 @@
+body {
+    background: #1a1a1a;
+}
+
+form {
+    background: #1a1a1a;
+    border: 1px solid #6c3483;
+    padding: 20px; /* Adjust the padding as needed */
+    width: 100%; /* Increase the total width of the form */
+    margin: auto; /* Center the form on the page */
+    margin-top: 350px;
+    color: #ffffff; /* Text color */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px; /* Adjust the gap between columns as needed */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Adjust the margin between form groups as needed */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px; /* Adjust the padding as needed */
+    margin: 10px 0; /* Adjust the margin as needed */
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #6c3483; /* Button color */
+    color: #ffffff; /* Button text color */
+    padding: 10px 15px; /* Adjust the padding as needed */
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4a235a; /* Hover color */
+}
+
+a {
+    color: #6c3483; /* Link color */
+}
